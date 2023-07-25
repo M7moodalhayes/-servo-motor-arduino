@@ -16,10 +16,9 @@ void loop()
   delay(100);
 }
 ![Screenshot 2023-07-25 192210](https://github.com/M7moodalhayes/-servo-motor-arduino/assets/79692306/a7c428ad-23d8-4639-9996-d2b00989012b)
-// Incluimos la librería para Servo
 #include <Servo.h>
 
-Servo servoBase;//Asigno un nombre específico
+Servo servoBase;
 
 void setup() {
    servoBase.attach(A1);//Pin a utilizar para servo
